@@ -2,8 +2,7 @@ import React from 'react'
 import Nav from '../Components/navbar'
 import Footer from '../Components/footer'
 import Card from '../Components/sevices_card'
-import Lable from '../Components/lable'
-
+import Label from '../Components/label'
 import logo1 from '../assets/logo1.jpg'
 import logo2 from '../assets/logo2.png'
 import logo3 from '../assets/logo3.jpg'
@@ -17,6 +16,7 @@ import logo10 from '../assets/logo10.png'
 
 function Services() {
   const brandname = "Pharmaeasy";
+  
   const location = "Noida";
   const address = "E2, Block e, sector-26";
   const state = "Uttar-Pradesh";
@@ -97,7 +97,7 @@ function Services() {
         </div>
       </section>
 
-      <Lable/>
+      <Label/>
 
       <Footer />
     </>

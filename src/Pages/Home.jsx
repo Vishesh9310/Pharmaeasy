@@ -9,6 +9,7 @@ import nurshing_care from '../assets/nurse.png'
 
 function Home() {
     const brandname = "PharmaEasy";
+    
     return (
         <>
             <Nav brand={brandname} />

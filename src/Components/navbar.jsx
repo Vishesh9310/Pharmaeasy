@@ -1,10 +1,11 @@
 import React from 'react'
 import logo from '../assets/hospital.avif'
+import { Link } from 'react-router-dom'
 
 const navbar = (props) => {
     let brand= props.brand;
-  return (
-    <nav className='inline-flex justify-between w-full px-24 h-20 bg-blue-100'>
+    return (
+    <nav className='inline-flex justify-between w-full px-24 h-20 bg-blue-100 text-sky-600'>
             <div className='inline-flex w-1/3 p-1'>
                 <img src={logo} alt="hello" className='h-14 self-center'/>
                 <div className='w-fit px-2 content-center'>
@@ -14,12 +15,12 @@ const navbar = (props) => {
             </div>
             <div className='content-center w-2/3 p-1'>
                 <ul className=' items-center list-none inline-flex justify-between w-full font-bold'>
-                    <li className='nav-item hover:text-green-600'><a href="#home">Home</a></li>
-                    <li className='nav-item hover:text-green-600'><a href="#about">About us</a></li>
-                    <li className='nav-item hover:text-green-600'><a href="#services">Services</a></li>
-                    <li className='nav-item hover:text-green-600'><a href="#gallery">Gallery</a></li>
-                    <li className='nav-item hover:text-green-600'><a href="#news">News</a></li>
-                    <li className='nav-item bg-sky-400 hover:bg-sky-300 px-4 py-1 rounded text-white'><a href="#contact">Contact us</a></li>
+                    <Link to="/" className="hover:text-green-600">Home</Link>
+                    <Link to="/about" className="hover:text-green-600">About Us</Link>
+                    <Link to="/service" className="hover:text-green-600">Services</Link>
+                    <Link to="/gallery" className="hover:text-green-600">Gallery</Link>
+                    <Link to="/news" className="hover:text-green-600">News</Link>
+                    <Link to="/contactus" className="nav-item bg-sky-400 hover:bg-sky-300 px-4 py-1 rounded text-white">Contact Us</Link>
                 </ul>
             </div>
         </nav>
