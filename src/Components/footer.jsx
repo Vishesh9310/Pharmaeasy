@@ -1,19 +1,59 @@
 import React from 'react'
+import instagram from '../assets/Instagram-Logo.wine.svg'
+import facebook from '../assets/Facebook-f_Logo-Blue-Logo.wine.svg'
+import github from '../assets/GitHub-Logo.wine.svg'
+import linkedin from '../assets/LinkedIn-Icon-Logo.wine.svg'
 
 function footer() {
+    const contactno = 9310365061;
+    const email = "vk866797@gamil.com";
     return (
-        <footer className='bg-blue-100 px-24 h-fit pb-30 content-center w-full'>
-            <div>
-                <div>
-                    <h1 className='font-bold text-5xl'>Address</h1>
-                    <p className='text-xl'>Contact no.</p>
+        <footer className='h-fit content-center w-full text-white bg-sky-600'>
+            <div className='h-fit px-60 pt-10 pb-6 gap-10 inline-flex content-center w-full text-white'>
+                <div className='bg-none h-full w-1/3 px-10'>
+                    <h3 className='font-bold text-lg pb-2'>CEO's</h3>
+                    <div className=' w-fit'>
+                        <p>Mr.Sourav: <em>Bussiness Specialist</em></p>
+                        <p>Mr.Vishesh: <em>Software Engineer</em></p>
+                        <p>Mr.Satyam: <em>Software Developer</em></p>
+                        <p>Mr.Prakash: <em>Software Developer</em></p>
+                    </div>
+
+                    <h3 className='font-bold text-lg pt-5 pb-1'>Our Doctors</h3>
+                    <div className=' w-fit'>
+                        <p>Dr.Neha: <em>Cardiologist</em></p>
+                        <p>Dr.Pallavi: <em>Orthopedic doctor</em></p>
+                        <p>Dr.Muskan: <em>Physiologist</em></p>
+                    </div>
                 </div>
-                <ul className='justify-between inline-flex gap-5'>
-                    <li className='text-orange-500 font-bold'><a href="#google">Google</a></li>
-                    <li className='text-blue-500 font-bold'><a href="#facebook">Facebook</a></li>
-                    <li className='text-pink-500 font-bold'><a href="#Instagram">Instagram</a></li>
-                    <li className='text-sky-500 font-bold'><a href="#Linkedin">Linkedin</a></li>
-                </ul>
+                <div className='bg-none h-full w-1/3 px-20'>
+                    <h3 className='font-bold text-lg  pb-2'>Address</h3>
+                    <address>21 Av. <br /> de l'Hermitage, <br />98000, Monaco</address>
+                </div>
+                <div className='bg-none h-full w-1/3 px-12'>
+                    <div className='pb-6'>
+                        <h3 className='font-bold pb-2'>Social media</h3>
+                        <div className='inline-flex justify-between w-full'>
+                            <a href="#instagram" className=''><img className='h-8 w-8' src={instagram} alt="" /></a>
+                            <a href="#facebook" className=''><img className='h-8 w-8' src={facebook} alt="" /></a>
+                            <a href="#github" className=''><img className='h-8 w-8' src={github} alt="" /></a>
+                            <a href="#linkedin" className=''><img className='h-8 w-8' src={linkedin} alt="" /></a>
+                        </div>
+                    </div>
+                    <div className='pb-6'>
+                        <h3 className='font-bold pb-2'>Contact Us</h3>
+                        <em>{contactno}</em>
+                    </div>
+                    <div className='pb-6'>
+                        <h3 className='font-bold pb-2'>Enquiry</h3>
+                        <em>{email}</em>
+                    </div>
+
+                </div>
+            </div>
+            <div className='text-center py-5 border-t-1'>
+                &copy; 2024-2026 Pharmaeasy
+                <h3>TERM AND CONDITIONS - PRIVACY POLICY</h3>
             </div>
         </footer>
     )

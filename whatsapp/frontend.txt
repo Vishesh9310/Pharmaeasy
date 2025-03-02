@@ -70,3 +70,10 @@ notes:
 leading - for gap between line in a para
 whitespace - for wraping text in an element.
 line-clamp - for clamping text to a spacific number of lines (for printing spicific number of lines)
+indent - for paragram starting word indent.
+
+
+bg-color-section: bg-sky-200
+bg-color-footer:bg-sky-600
+bg-color-header: bg-blue-100
+button: bg-sky-400
