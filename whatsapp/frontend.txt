@@ -1,0 +1,72 @@
+//slogan:
+Your heath our priority
+
+//logo bottom
+A hospital that lives in your pocket
+
+//colors:
+light: services, footer
+dark: name
+background color: light green
+
+//idea:
+pallavi: online doctor consultant
+sourav: nursing care services platform
+prakash: health care
+neha: medical products
+
+//features:
+1. rule-based chatbot: uses predefined responses for faqs on health, fitness and wellness.
+2. fitness & health tracker: users manually log steps, calories and workouts, system provides predefined recommendations.
+3. online doctor consultant: allows users to book doctor appointments and consultations.
+4. task & productivity tracker: Users can set reminders for workouts, water intake and daily tasks.
+5. e-commerce integration: Users can browse and buy health-realated products.
+pallavi: secod and fourth points same hai
+
+
+
+//footer:
+address
+contactno
+social media links
+
+//pages
+
+//navbar
+1. Home:
+2. aboutus: jisme hmare or nurse doctor ki sari details hogi
+3. services: isme sari information hogi ki hm ky ky Services provide kra rhe h
+4. Gallery:
+5. News:
+6. contact us:
+
+//new page
+1.fitness related
+2. doctor consultant and other health services
+3. e-com jisse medicine wagira buy kr skte health
+
+//Iske bad user jispe click krega uski sari details khulegi aise krne se sari chize organized rhegi aur site v acha lgega
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+notes:
+leading - for gap between line in a para
+whitespace - for wraping text in an element.
+line-clamp - for clamping text to a spacific number of lines (for printing spicific number of lines)
